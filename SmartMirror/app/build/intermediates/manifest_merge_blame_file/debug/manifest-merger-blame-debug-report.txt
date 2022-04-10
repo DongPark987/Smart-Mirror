@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cookandroid.smartmirror"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\hippo\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.SmartMirror" >
+21-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:11:9-49
+22        <activity
+22-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:12:9-15:40
+23            android:name="com.cookandroid.smartmirror.LinkWifiActivity"
+23-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:13:13-45
+24            android:exported="false"
+24-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:15:13-37
+25            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+25-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:14:13-69
+26        <activity
+26-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:16:9-25:20
+27            android:name="com.cookandroid.smartmirror.RegisterDevActivity"
+27-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:17:13-48
+28            android:exported="true"
+28-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:18:13-36
+29            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+29-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:19:13-69
+30            <intent-filter>
+30-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:26:9-37:20
+37            android:name="com.cookandroid.smartmirror.MainActivity"
+37-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:27:13-41
+38            android:exported="true"
+38-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:28:13-36
+39            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+39-->C:\Capstone1\Magic-mirror\SmartMirror\app\src\main\AndroidManifest.xml:29:13-69
+40
+41            <!-- <intent-filter> -->
+42            <!-- <action android:name="android.intent.action.MAIN" /> -->
+43
+44
+45            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+46            <!-- </intent-filter> -->
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.cookandroid.smartmirror.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hippo\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hippo\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hippo\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hippo\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
