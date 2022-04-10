@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2635" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2635" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/drawable/selector.xml" value="0.1625" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/activity_main.xml" value="0.15096251266464034" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/activity_mainscreen.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/activity_windowsetupscreen.xml" value="0.3140625" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/fragment1.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/messagesend.xml" value="0.2689969604863222" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/schedule.xml" value="0.2689969604863222" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/stock.xml" value="0.2689969604863222" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/title_smartmirror.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/window_item.xml" value="0.25" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/layout/windowsetup.xml" value="0.18" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/menu/menu_bottom.xml" value="0.5446153846153846" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/menu/menu_main.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/wjsck/Desktop/Git/Magic-mirror/SmartMirror/app/src/main/res/menu/menu_windowsetupscreen.xml" value="0.5446153846153846" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
