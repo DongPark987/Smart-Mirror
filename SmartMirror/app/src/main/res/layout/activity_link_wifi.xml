@@ -42,7 +42,7 @@
         android:textAppearance="@style/btnStyle"
         android:background="@drawable/radius"
 
-        android:id="@+id/testBtnRegister"></Button>
+        android:id="@+id/testBtnLinkWifi"></Button>
 
 
 </LinearLayout>

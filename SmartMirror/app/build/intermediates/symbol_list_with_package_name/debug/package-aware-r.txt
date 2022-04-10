@@ -1089,6 +1089,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color azure
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1157,6 +1158,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_gray
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1780,6 +1782,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1798,14 +1801,21 @@ drawable ic_baseline_search_24
 drawable ic_baseline_settings_24
 drawable ic_baseline_wifi_24
 drawable ic_baseline_wifi_lock_24
+drawable ic_bus
+drawable ic_calendar
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_menu_settings
+drawable ic_message
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_stock
+drawable ic_weather
+drawable ic_windowsetup
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1841,6 +1851,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable radius
 drawable rectangle
+drawable selector
 drawable test_custom_background
 drawable test_level_drawable
 drawable text_gradient
@@ -1945,7 +1956,10 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bottmleft
 id bottom
+id bottom_navigation
+id bottomright
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2065,6 +2079,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
+id imageView_bottomleft
+id imageView_bottomright
+id imageView_topleft
+id imageView_topright
 id immediateStop
 id included
 id info
@@ -2088,6 +2107,8 @@ id line3
 id linear
 id listMode
 id list_item
+id mainAppbar
+id mainConstraint
 id masked
 id match_constraint
 id match_parent
@@ -2110,6 +2131,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menu_settings
 id message
 id middle
 id mini
@@ -2185,6 +2207,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id registerMainLayout
 id reverseSawtooth
 id right
@@ -2254,6 +2277,10 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id tab1
+id tab2
+id tab3
+id tab4
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2268,6 +2295,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id testBtnLinkWifi
 id testBtnMain
 id testBtnRegister
 id test_checkbox_android_button_tint
@@ -2281,6 +2309,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2299,6 +2328,8 @@ id toolbar
 id toolbarTv
 id top
 id topPanel
+id topleft
+id topright
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2325,6 +2356,8 @@ id west
 id wifiImg
 id wifiListView
 id wifiName
+id windowItem
+id windowsetupbutton
 id withText
 id withinBounds
 id wrap
@@ -2402,6 +2435,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_link_wifi
 layout activity_main
+layout activity_mainscreen
 layout activity_register_dev
 layout custom_appbar
 layout custom_dialog
@@ -2434,6 +2468,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout messagesend
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2469,9 +2504,11 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout schedule
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout stock
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2488,9 +2525,14 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout title_smartmirror
 layout wift_list_view
+layout window_item
+layout windowsetup
 menu example_menu
 menu example_menu2
+menu menu_bottom
+menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
